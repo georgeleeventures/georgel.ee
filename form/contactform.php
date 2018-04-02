@@ -1,7 +1,7 @@
 <?php
 $EmailFrom = "noreply@georgel.ee";
 $EmailTo = "george@georgel.ee";
-$Subject = "New Message from Blvck Template";
+$Subject = "New Message to George Lee Website";
 $Name = Trim(stripslashes($_POST['InputName'])); 
 $Phone = Trim(stripslashes($_POST['InputPhone'])); 
 $Email = Trim(stripslashes($_POST['InputEmail']));
@@ -38,6 +38,6 @@ if ($success){
   print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
 }
 else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.php\">";
 }
 ?>
